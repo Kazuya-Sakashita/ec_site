@@ -1,0 +1,21 @@
+current directory: /Users/sakashitakazuya/Desktop/work/develop/20230820/ec_site/vendor/bundle/ruby/3.1.0/gems/date-3.3.3/ext/date
+/Users/sakashitakazuya/.rbenv/versions/3.1.4/bin/ruby -I /Users/sakashitakazuya/.rbenv/versions/3.1.4/lib/ruby/3.1.0 extconf.rb
+checking for rb_category_warn()... yes
+checking for timezone in time.h with  -Werror... yes
+checking for altzone in time.h with  -Werror... no
+creating Makefile
+
+current directory: /Users/sakashitakazuya/Desktop/work/develop/20230820/ec_site/vendor/bundle/ruby/3.1.0/gems/date-3.3.3/ext/date
+make DESTDIR\= sitearchdir\=./.gem.20230820-18367-7cxjvz sitelibdir\=./.gem.20230820-18367-7cxjvz clean
+
+current directory: /Users/sakashitakazuya/Desktop/work/develop/20230820/ec_site/vendor/bundle/ruby/3.1.0/gems/date-3.3.3/ext/date
+make DESTDIR\= sitearchdir\=./.gem.20230820-18367-7cxjvz sitelibdir\=./.gem.20230820-18367-7cxjvz
+compiling date_core.c
+compiling date_parse.c
+compiling date_strftime.c
+compiling date_strptime.c
+linking shared-object date_core.bundle
+
+current directory: /Users/sakashitakazuya/Desktop/work/develop/20230820/ec_site/vendor/bundle/ruby/3.1.0/gems/date-3.3.3/ext/date
+make DESTDIR\= sitearchdir\=./.gem.20230820-18367-7cxjvz sitelibdir\=./.gem.20230820-18367-7cxjvz install
+/usr/bin/install -c -m 0755 date_core.bundle ./.gem.20230820-18367-7cxjvz
